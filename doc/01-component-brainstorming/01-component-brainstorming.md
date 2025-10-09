@@ -1,12 +1,10 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Pranay Kumar
+- **Dot Number**: kumar.1213
+- **Due Date**: 8/19/25
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -52,8 +50,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -67,12 +63,10 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
-the rubric is designed to assess the learning objectives *directly* in a way
+the rubric is designed to assess the learning objectives _directly_ in a way
 that is low stakes—meaning you shouldn't have to worry about the grade. Just
 do good work.
 
@@ -106,23 +100,15 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+Some of the activities I enjoy gaming (playing hollow knight: silksong currently), watching movies and shows (I am watching The Sopranos and Demon Slayer right now!). I also like working out to maintain my physical health. I also am working with a professor in the field of Quantum Computing. I find the topic interesting and exciting and hope to work in it in the future.
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -131,8 +117,6 @@ etc. Make of this whatever seems interesting to you, and keep in mind that
 you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -157,7 +141,7 @@ format, we can be more confident that your designs will be possible.
     - `NaturalNumber divide(NaturalNumber n)`: divides `this` by `n`, returning
       the remainder
     - ...
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
       - Yes, basically all OSU components have to be mutable as long as they
@@ -169,7 +153,7 @@ format, we can be more confident that your designs will be possible.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
       - Yes. NaturalNumber is base 10, and we track that in a constant called
-          `RADIX`.
+        `RADIX`.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
       - Yes. The kernel methods `multiplyBy10` and `divideBy10` can be used to
@@ -200,68 +184,88 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
-  - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
-  - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
-  - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
-    answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+- Component Design #1: MusicPlayer
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Allows users to choose music and play it from a GUI
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - `add(Song song):` Adds a song to the end of the queue
+    - `Skip method:` Allows user to skip to the next music in the queue based on their position.
+    - `currentSong():` Returns the current song at the front of the queue
+    - `size:` Reports the number of songs in the queue
+    - `clear():` Clears the queue of song files
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+    - `shuffle:`Randomly re-orders the songs in the playlist.
+    - `remove(Song song):` Removes a specific song from anywhere in the queue.
+    - `jumpToSong(String songIdentifier):` Sets the current song to the specified song.
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes as the playlist should have the ability to be modified for methods like add, remove, shuffle.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Maybe. Still not sure of the data structure to use
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Not sure.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, the kernel methods can implement the secondary methods. For example for the shuffle method, we create a new queue and the add(Song song) to create a new random playlist.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: WorkoutLog
+
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Component models a workout session. It will contain a collection of excercises, where each excercise has its sets and reps.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+
+    - `addExercise(String exerciseName):` Adds a new exercise to the log.
+    - `hasExcercise(String excerciseName):` Checks whether the excercise exists in the workout session
+    - `addSet(String exerciseName, int reps, double weight):` Adds a set of number of reps and weight to a given exercise.
+    - `getWorkoutData():` Returns the complete workout data.
+
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+    - `calculateTotalVolume():` Calculates the total volume for the workout (the sum of all sets and reps)
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. The workout log should be mutable to allow for the methods to change the state of the log
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Possibly, as maps can associate an excercise to its weight and reps
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Not sure
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. calculateTotalVolume() would be implemented by calling getWorkoutData() and iterating through the data structure.
+
+- Component Design #3: QuantumCircuit
+  - **Description**:
+    - Models the structure of a quantum circuit. It will manage a set of qubits (quantum bits) and an ordered sequence of quantum gates applied to them.
+  - **Kernel Methods**:
+    - `addQubit():` Adds a new qubit to the circuit and return the index of the qubit
+    - `applyGate(GateType gate, int targetQubit):` Applies a single-qubit gate (e.g., Hadamard, Pauli-X) to a specified qubit.
+    - `applyControlledGate(GateType gate, int controlQubit, int targetQubit):` Applies a controlled two-qubit gate (e.g., CNOT)
+  - **Secondary Methods**:
+    - `createBellState(int qubitA, int qubitB):` Constructs a Bell state
+    - `calculateFidelity(int qubitA, int qubitB):` Calculates the fidelity of two density matrices
+    - `width():` Reports the number of qubits in the circuit.
+    - `depth():` Reports the number of time-steps in the
+      circuit.
+    - `measure():` Measures the qubit and collapases the superposition
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
+    answer for each of the following questions):
+    - Would this component be mutable? Answer and explain:
+      - Yes, the circuit should be able to change to accomadate gates and other methods
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
+      Answer and explain:
+      - Yes, an internal class method could be designed to store information about the gates being applied to the qubits.
+    - Would this component need any enums or constants (e.g.,
+      `Program.Instruction`)? Answer and explain:
+      - Not sure
+    - Can you implement your secondary methods using your kernel methods?
+      Answer, explain, and give at least one example:
+      - Yes for example, the secondary method createBellState relies on the kernel methods of applyGate and applyControlledGate.
 
 ## Post-Assignment
 
@@ -269,8 +273,6 @@ The following sections detail everything that you should do once you've
 completed the assignment.
 
 ### Changelog
-
-<!-- TODO: create CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
