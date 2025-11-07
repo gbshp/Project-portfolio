@@ -6,7 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## [Unreleased]
+## [2025.11.08]
+
+- Implemented QuantumCircuitSecondary abstract class based on the finalized QuantumCircuit and QuantumCircuitKernel interfaces.
+- Implemented secondary method printMeasurementProbabilities using getProbabilities() and numQubits() kernel calls.
+- Implemented secondary method measure() to return result.
+- Implemented getStateVectorString() to display state probabilities.
+- Implemented toString(), equals(), and hashCode() using only kernel methods (numQubits(), getProbabilities()).
 
 ## [2024.12.30]
 
