@@ -4,6 +4,22 @@ import java.util.List;
 /**
  * Kernel implementation of the QuantumCircuit component.
  *
+ * @convention <pre>
+ * $this.stateVector is not null
+ * $this.gateQueue is not null
+ * $this.numQubits > 0
+ * $this.stateVector.length == 2 ^ ($this.numQubits)
+ * sum of (|stateVector[i]|^2) for all i is approx 1.0 (within floating point error)
+ * </pre>
+ *
+ * @correspondence <pre>
+ * $this.num_qubits = $this.numQubits
+ * $this.gates = [sequence of operations in $this.gateQueue]
+ * $this.state_vector = [array of size 2^$this.numQubits where index i corresponds
+ * to basis state |i> and value is the complex amplitude
+ * stored in $this.stateVector[i]]
+ * </pre>
+ *
  * @author Pranay Kumar
  */
 public class QuantumCircuit1L extends QuantumCircuitSecondary {
