@@ -50,8 +50,6 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -140,8 +138,6 @@ merges, you will need to pull the changes from main into your current branch
 to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +303,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I feel more equipped to doing actual projects by doing the project portfolio. The planning, structuring, and coding involved in the project is different from the structured assignments that I am used to. I would say that I understood why Java components are structured the way they are by doing this project more than actual class theory.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+I would say that my project protfolio taught me how to represent abstract concepts like imaginary numbers, linear algebra and physical concepts like qubits and quantum gates. I was able to develop a deeper understanding of the physics and code involved in simulating a quantum computer.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+My perspective in regards to software building has changed significantly. Before this most of my experience was in coding and effectively answer structured problems. I do still enjoy software development and this project has taught me how to go about software development in a more ogranized fashion.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +322,28 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I picked up an understanding of representing mathematical operations in java and a better understanding of quantum mechanics to represent in java.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- developed deeper understanding of quantum mechanics and operations involved in quantum computing
+- developed an understanding of software development architecture in java.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I am most defintely enjoyed my project. It probably reinforces my interest in the field.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+The best way to pursue my current trajectory is to get involved with research with professors and pursue a pHd. I am already researching with a professor at OSU and they are a mentor as someone who is doing what I want to do in the future.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -373,7 +368,6 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include ...
-
 ```
 
 Here `YYYY.MM.DD` would be the date of your submission, such as 2024.04.21.
@@ -383,8 +377,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -435,7 +427,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
