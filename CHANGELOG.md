@@ -6,7 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## [Unreleased]
+## 2025.12.10
+
+- Implemented testing programs like `QuantumCircuit1LTest.java`: JUnit tests for kernel constructors, gate logic. `QuantumCircuitTest.java`: JUnit tests for abstract class methods
+- Implemented use cases like `BellStateDemo.java`: A physics demonstration creating the entangled Bell State. `QuantumRNG.java`: A program using the circuit as a true random number generator.
 
 ## [2024.12.30]
 
